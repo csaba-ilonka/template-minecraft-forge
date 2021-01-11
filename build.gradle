@@ -19,7 +19,6 @@ apply plugin: "idea"
 apply from: "${rootDir}/minecraft.gradle"
 
 group = 'io.github.csabailonka.minecraft'
-version = '0.0.1'
 archivesBaseName = 'THIS_MOD_ID'
 
 sourceCompatibility = JavaVersion.VERSION_1_8
