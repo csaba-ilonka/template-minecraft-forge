@@ -47,6 +47,7 @@ idea.module {
     excludeDirs += file('build')
     excludeDirs += file('gradle')
     excludeDirs += file('logs')
+    excludeDirs += file('run')
     downloadJavadoc = true
     downloadSources = true
 }
