@@ -5,8 +5,12 @@
         <Console name="CONSOLE" target="SYSTEM_OUT">
             <PatternLayout pattern="%d %p %c{1.} [%t] %m%n" />
         </Console>
+        <File name="FILE" fileName="THIS_MOD_ID.log" immediateFlush="false" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
         <Async name="ASYNC">
             <AppenderRef ref="CONSOLE" />
+            <AppenderRef ref="FILE" />
         </Async>
     </Appenders>
 

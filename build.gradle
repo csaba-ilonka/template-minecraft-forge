@@ -19,7 +19,7 @@ apply plugin: "idea"
 apply from: "${rootDir}/minecraft.gradle"
 
 group = 'io.github.csabailonka.minecraft'
-archivesBaseName = 'THIS_MOD_ID'
+archivesBaseName = "icsaba's THIS_MOD_ID"
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
